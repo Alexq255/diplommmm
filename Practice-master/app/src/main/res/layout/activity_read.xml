@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ReadActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="718dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="399dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="13dp"
+                android:gravity="center"
+
+                android:text="Предложения банков"
+                android:textColor="#E91E63"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <SearchView
+                android:id="@+id/Finder"
+                android:layout_width="408dp"
+                android:layout_height="42dp"
+                android:background="#FFFFFF"
+                android:queryHint="Search" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="408dp"
+                android:layout_height="625dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF">
+
+            </ListView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

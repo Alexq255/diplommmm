@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ShowDataActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="32dp">
+
+    <TextView
+        android:id="@+id/twStartDate3"
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:background="#000000"
+        android:text="Дата окончания:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_column="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529"
+        app:layout_row="0" />
+
+    <TextView
+        android:id="@+id/twStartDate2"
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:background="#000000"
+        android:text="Дата начала:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_column="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463"
+        app:layout_row="0" />
+
+    <TextView
+        android:id="@+id/fullop"
+        android:layout_width="376dp"
+        android:layout_height="83dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_column="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        app:layout_row="0" />
+
+    <TextView
+        android:id="@+id/twEndDate"
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:background="#000000"
+        android:textColor="#48F44F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_column="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463"
+        app:layout_row="0" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="389dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Акция в подробностях"
+        android:textColor="#E91E63"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:id="@+id/Nazvanie"
+        android:layout_width="398dp"
+        android:layout_height="40dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <ImageView
+        android:id="@+id/imgTovar"
+        android:layout_width="381dp"
+        android:layout_height="191dp"
+        android:foregroundGravity="left"
+        app:layout_column="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        app:layout_row="0"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/twStartDate"
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:background="#000000"
+        android:textColor="#FF48F44F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_column="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529"
+        app:layout_row="0" />
+
+    <TextView
+        android:id="@+id/shortop"
+        android:layout_width="375dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:textColor="#FFB700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_column="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#E91E63"
+        android:onClick="Send"
+        android:text="Звоните нам!"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#E91E63"
+        android:onClick="goBack"
+        android:text="Список акций"
+        android:textSize="16sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

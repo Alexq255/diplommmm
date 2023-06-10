@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Licenge">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:srcCompat="@drawable/bankmonitor" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Слова «мы», «наш», «сервис» и «BankMonitor» в настоящей Политике конфиденциальности относятся к ООО &quot; Компания БанкМонитор&quot; ИНН / КПП – 7806543414 / 781101001 ОГРН – 1187847147630 ОКПО: 28651383 ОКАТО: 40278000000 Генеральный директор Соленый С.С. 192148, город Борисоглебск, улица Свободы , дом 124, Офис 1  В настоящей Политике используются следующие термины:  «Услуги»/«Сервисы»/«Продукты» — средства и материалы, разработанные и предоставляемые BankMonitor для создания, отправки и управления электронной почтой и другими сообщениями, а также информацией о ваших подписчиках.  «Участник»/«Пользователь» — лицо или организация, зарегистрированные в SendPulse с целью использования услуг.  «Вы» — посетитель наших сайтов или пользователь услуг SendPulse.   «Подписчик» — лицо, с которым вы контактируете или будете контактировать в будущем, используя наши услуги. Другими словами, подписчик — это пользователь, чей электронный адрес добавлен в вашу адресную книгу или чья информация добавлена в сервис.  «Персональные данные»/«Персональная информация» — любая информация, которая прямо или косвенно позволяет идентифицировать вас или вашего подписчика, включая, но не ограничиваясь: имя, фамилия, дата рождения, адрес электронной почты, пол, профессия и другие демографические сведения.  «Адресная книга» — список подписчиков и любая информация о них, например: email адреса, имена, дни рождения."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E91E63"
+                android:onClick="TpReg"
+                android:text="Перейти к регистрации" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".TovarkaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="391dp"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="Список товаров"
+                android:layout_marginTop="30dp"
+                android:textColor="#E91E63"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:id="@+id/SortBtn"
+                android:layout_width="404dp"
+                android:layout_height="49dp"
+                android:backgroundTint="#FF5722"
+
+                android:onClick="SortByCat"
+                android:text="Сортировка по категориям"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/SortClear"
+                android:layout_width="404dp"
+                android:layout_height="49dp"
+                android:backgroundTint="#FF5722"
+                android:onClick="SortClear"
+                android:text="Сбросить фильтрацию"
+                android:textStyle="bold" />
+
+            <SearchView
+                android:id="@+id/Finder"
+                android:layout_width="402dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:queryHint="Search" />
+
+            <ListView
+                android:id="@+id/tovarList"
+                android:layout_width="401dp"
+                android:layout_height="542dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#FFFFFF">
+
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/Countl"
+                android:layout_width="408dp"
+                android:layout_height="23dp"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

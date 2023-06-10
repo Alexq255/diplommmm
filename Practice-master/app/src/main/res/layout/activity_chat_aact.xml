@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".chatAact">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/nameup"
+                android:layout_width="315dp"
+                android:layout_height="28dp"
+                android:text="TextView"
+                android:layout_marginStart="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="315dp"
+                android:layout_height="27dp"
+                android:gravity="center"
+                android:text="Общий чат"
+                android:layout_marginStart="50dp"
+                android:textColor="#E91E63"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/messageList"
+                android:layout_width="match_parent"
+
+                android:layout_height="580dp"
+                android:background="#F44336">
+
+
+            </ListView>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_marginStart="330dp"
+                    android:onClick="Send"
+
+
+                    android:rotation="90"
+                    app:srcCompat="@drawable/back" />
+
+                <EditText
+                    android:id="@+id/message_input"
+                    android:layout_width="308dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_edittext"
+                    android:hint="Введите сообщение">
+
+                </EditText>
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/drawable/backgroudnd_btn.xml" value="0.2405" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/drawable/buy_with_googlepay_button_content.xml" value="0.2405" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/drawable/googlepay_button_background.xml" value="0.1" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/drawable/googlepay_button_content.xml" value="0.2405" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/drawable/googlepay_button_overlay.xml" value="0.1" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_adm_order_changer.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_admin_test.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_ban.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_change.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_checkout.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_client_order_for_admin.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_full_tovar.xml" value="0.2" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_full_tovarсhange.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_glavnaya.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_glavnaya_user.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_licenge.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_loading_screen.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_order.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_orderAdm.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_order_adm.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_pay2.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_prechange.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_read.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_send_otp.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_shop_cart.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_show_data.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_tovar_add.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_tovarka.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/activity_verify.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/buy_with_googlepay_button.xml" value="0.264" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/content_pay.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/fragment_first.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Alexq/Desktop/PRACT/app/src/main/res/layout/fragment_second.xml" value="0.223731884057971" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
